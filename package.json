@@ -1,8 +1,9 @@
 {
   "name": "vuefmt",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Format vue files for Vue.js with jsfmt, stylefmt",
+  "main": "index.js",
+  "bin": "bin/vuefmt.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "async": "^2.0.1",
+    "cheerio": "^0.22.0",
+    "html": "^1.0.0",
     "jsfmt": "^0.5.3",
     "postcss": "^5.1.2",
     "stylefmt": "^4.2.3",

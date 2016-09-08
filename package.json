@@ -19,9 +19,6 @@
     "html": "^1.0.0",
     "jsfmt": "^0.5.3",
     "postcss": "^5.1.2",
-    "stylefmt": "^4.2.3",
-    "xml-beautifier": "^0.3.0",
-    "xmldom": "^0.1.22",
-    "xpath": "0.0.23"
+    "stylefmt": "^4.2.3"
   }
 }
